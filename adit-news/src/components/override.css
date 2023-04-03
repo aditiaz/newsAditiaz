@@ -1,0 +1,70 @@
+.ant-layout-header {
+  transition: all 0.2s ease-in-out;
+  position: fixed;
+  left: 18%;
+  z-index: 1;
+  width: 64%;
+  height: 6rem;
+  top: 0;
+}
+
+.ant-list-item-meta {
+  height: 20%;
+  margin: auto;
+}
+
+.ant-layout {
+  margin: auto;
+  background-color: #fff;
+  margin-top: 4rem;
+  width: 70rem;
+  /* max-width: 88%; */
+}
+.ant-layout-header ul {
+  background-color: transparent;
+}
+
+.ant-layout-header.fixed {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1px 1px #f0f1f2;
+}
+.ant-typography {
+  font-size: 3rem !important;
+  color: black !important;
+  margin-bottom: 3rem !important;
+}
+.ant-list-item-meta-avatar {
+  border-radius: 0;
+  width: 50%;
+  height: 20%;
+}
+
+.ant-list-item-meta-title {
+  width: 80%;
+  height: 30%;
+  margin: auto;
+}
+.ant-list-item-meta-title a {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .ant-layout {
+    margin: auto;
+    background-color: #fff;
+    margin-top: 3rem;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+  }
+
+  .ant-layout-header {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    min-width: 1000px;
+    max-width: 1000px;
+  }
+}
